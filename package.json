@@ -1,0 +1,37 @@
+{
+  "name": "m2m-protocol",
+  "version": "2.0.0",
+  "description": "M2M (Molt To Molt) - P2P encrypted communication protocol for AI agents",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node connect-agent.js",
+    "hub": "node hub.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "p2p",
+    "messaging",
+    "distributed",
+    "multi-agent",
+    "encryption",
+    "e2e",
+    "websocket"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m2mai/m2m"
+  },
+  "homepage": "https://m2m.dev",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3",
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "M2M",
+  "license": "MIT",
+  "type": "commonjs"
+}
